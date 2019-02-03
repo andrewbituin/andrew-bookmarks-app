@@ -195,7 +195,7 @@ const bookmarkList = (function() {
       <p> - ${item.rating}/5</p>
       <p> - ${item.desc}</p>
       <a href="${item.url}">Visit site</a>
-        <button type="submit" class="js-remove-bookmark-extended">Remove</button>
+        <button type="submit" class="js-remove-bookmark js-extended">Remove</button>
     </li>
   `;
   }
